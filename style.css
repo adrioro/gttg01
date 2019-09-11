@@ -36,9 +36,47 @@ h1{
     background-position: center;
     background-size: cover;
 }
+
 .leftNav{
     margin-top: 30px;
+    padding-top: 30px;
     max-width: 250px;
     height:850px;
-    background-color: #70DFEE;
+    background-color: #d1e5e7;
+}
+.imageBox{
+    max-width: 80%;
+    height: 150px;
+    margin-left: 10%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #899899;
+    margin-bottom: 30px;
+
+}
+.wild{
+    background-image: url("images/wild.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.lavender{
+    background-image: url("images/lavender.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.rose{
+    background-image: url("images/rose.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.rightTopSection{
+    max-width: 430px;
+    height: 850px;
+    background-color: #F8BDE7;
+    
+    
 }
