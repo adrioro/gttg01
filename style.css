@@ -26,7 +26,7 @@ nav{
     margin-top: -30px;
     width: 100%;
     height: 35px;
-    background-color:#f3d3dd;
+    background-color:#E2DFE0;
     position: relative:
 }
 li{
@@ -34,8 +34,12 @@ li{
     padding: 8px 11px 7px 11px;
     border-style: solid;
     border-width: 1px;
-    border-color:  rgb(202, 152, 168);
-    background-color:rgb(243, 211, 221);
+    border-color:  rgb(192, 192, 192);
+    background-color:rgb(248, 233, 238);
+}
+.bredcrumbs{
+    font-size: 11px;
+    margin: 16px;
 }
 
 /*  Welcome text */
@@ -56,10 +60,16 @@ h1{
 .leftNav{
     float: left;
     margin-top: 30px;
-    padding-top: 30px;
     width: 30%;
     height: 100%;
-    background-color: #d1e5e7;
+    background-color:white;
+    border: 1px solid rgb(192, 192, 192);
+    text-align: center;
+}
+.leftNav img{
+    width: 80%;
+    height: 100%;
+    margin: 10%;
 }
 
 .imageBox{
@@ -71,32 +81,24 @@ h1{
     border-color: #899899;
     margin-bottom: 30px;
 }
-.wild{
-    background-image: url("images/wild.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.lavender{
-    background-image: url("images/lavender.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.rose{
-    background-image: url("images/rose.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
 /*  Right Main Content */
 
 .rightBlock{
     float: right;
     margin-top: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 70%;
     height: 100%;
-    background-color: #e7d1e6;
+    background-color:rgb(239, 250, 250);
 }
+.discounts{
+    background-color: white;
+    text-align: center;
+}
+.liDiscount{
+    border: none;
+    background-color: white;
+}
+
