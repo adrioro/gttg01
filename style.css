@@ -102,10 +102,17 @@ li{
 .discounts{
     background-color: white;
     text-align: center;
+    padding: 12px;
 }
 .liDiscount{
     border: none;
     background-color: white;
+    border-right: 1px solid rgb(192, 192, 192);
+    color: #BC4146;
+}
+.ten{
+    border: none;
+
 }
 .featured{
     position: relative;
@@ -151,13 +158,28 @@ li{
     border-radius: 5px;
     text-align: center;
     display: inline-block; /* This sollution I found I don't understand.*/
-
 }
 #salePic{
     width: 42%;
     height: auto;
 }
-
+.gifts{
+    text-align: center;
+    float: right;
+    width: 100%;
+    height: auto;
+}
+.gifts li{
+    margin-top: 20px;
+    
+}
+.gifts button{
+    background-color:rgb(248, 233, 238);
+    border: none;
+}
+.gift{
+    font-size: 16px;
+}
 
 
 
