@@ -1,15 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+
 body{
     font-family: 'Arial', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
-    
 }
 
+/*  Banner */
+
+.banner{
+    width: 100%;
+    height:150px;
+    background-image: url("images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*  Navigation */
+
 nav{
+    position: relative;
     margin-top: -30px;
-    max-width: 900px;
+    width: 100%;
     height: 35px;
     background-color:#f3d3dd;
+    position: relative:
 }
 li{
     display: inline-block;
@@ -19,31 +37,31 @@ li{
     border-color:  rgb(202, 152, 168);
     background-color:rgb(243, 211, 221);
 }
+
+/*  Welcome text */
+
 .welcome{
-    max-width: 900px;
+    max-width: 100%;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 h1{
     font-family: 'Montserrat', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;  
 }
-.banner{
-    max-width: 900px;
-    height:150px;
-    background-image: url("images/banner.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+
+/*  Left Navigation */
 
 .leftNav{
+    float: left;
     margin-top: 30px;
     padding-top: 30px;
-    max-width: 250px;
-    height:850px;
+    width: 30%;
+    height: 100%;
     background-color: #d1e5e7;
 }
+
 .imageBox{
     max-width: 80%;
     height: 150px;
@@ -52,14 +70,12 @@ h1{
     border-width: 1px;
     border-color: #899899;
     margin-bottom: 30px;
-
 }
 .wild{
     background-image: url("images/wild.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
 }
 .lavender{
     background-image: url("images/lavender.png");
@@ -73,10 +89,14 @@ h1{
     background-position: center;
     background-size: cover;
 }
-.rightTopSection{
-    max-width: 430px;
-    height: 850px;
-    background-color: #F8BDE7;
-    
-    
+
+/*  Right Main Content */
+
+.rightBlock{
+    float: right;
+    margin-top: 30px;
+    padding-top: 30px;
+    width: 70%;
+    height: 100%;
+    background-color: #e7d1e6;
 }
